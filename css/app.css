@@ -111,3 +111,52 @@ body {
 .singup-agree a {
   color: #4796ff;
 }
+.responsive-text {
+  display: none;
+}
+@media (max-width: 590px) {
+  .signup {
+    height: 630px;
+  }
+  .signup-content {
+    padding: 28px;
+  }
+  .signup-title {
+    font-size: 30px;
+  }
+  .signup-already {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .signup-already a {
+    font-size: 27px;
+  }
+  .signup-input input {
+    width: 100%;
+  }
+  .signup-btn ion-icon {
+    transform: translate(430%, 6px);
+  }
+  .singup-agree {
+    transform: translate(3.5%, -46.2%);
+    font-size: 20px;
+    text-align: center;
+  }
+  .singup-agree a {
+    font-size: 22px;
+  }
+}
+@media (max-width: 422px) {
+  .signup {
+    display: none;
+  }
+  .signup-content {
+    display: none;
+  }
+  .responsive-text {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+  }
+}

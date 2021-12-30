@@ -35,8 +35,9 @@ img {
 body {
   background-image: linear-gradient(to top right, #ffa17a, #fe7fab, #fffefb);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  min-height: 94.9vh;
 }
 .signup {
   width: 550px;
